@@ -1,5 +1,9 @@
-html, body {
+  html, body {
     height: 100%;
+  }
+
+  .shadow {
+    box-shadow: 0 .15rem 1.75rem 0 #3a3b4526!important;
   }
   
   * {
@@ -34,6 +38,7 @@ html, body {
     font-weight: bold;
     color: #FFF;
     margin-top: 10px;
+    border: 0;
   }
   
   .messages {
@@ -42,4 +47,6 @@ html, body {
     margin: 20px 0;
     border: 1px solid #ddd;
     padding: 20px;
+
+    overflow: auto;
   }

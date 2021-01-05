@@ -28,4 +28,6 @@ io.on('connection', socket => {
     })
 })
 
-server.listen(80)
+server.listen(80, () => {
+    console.log('Server para disparo via Chat iniciado.')
+})
